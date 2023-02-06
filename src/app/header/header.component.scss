@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
+
+header h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Princess Sofia", cursive;
+  color: rgb(81, 80, 80);
+}
+
+.container-fluid {
+  width: fit-content;
+}
+.nav-link {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.active {
+  color: rgb(0, 128, 94) !important;
+}

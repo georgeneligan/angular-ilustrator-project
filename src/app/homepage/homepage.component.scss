@@ -1,0 +1,49 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(73, 72, 72);
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  gap: 10px;
+
+  .left {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+  }
+
+  .right {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+  }
+}
+
+.ilustrator {
+  width: 100%;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  transition: transform 1s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.04);
+  }
+}
