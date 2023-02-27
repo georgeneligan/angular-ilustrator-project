@@ -22,7 +22,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NotfoundComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

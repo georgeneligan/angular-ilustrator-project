@@ -47,3 +47,98 @@ section {
     transform: scale(1.04);
   }
 }
+
+.overlay_container {
+  position: relative;
+  transition: 0.4s;
+}
+
+.overlay_container i {
+  margin-top: 80%;
+  font-size: 20px;
+  margin-right: 80%;
+}
+
+.heart {
+  margin-top: 520px !important;
+}
+
+.count {
+  font-size: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay_container:hover .ilustrator {
+  transform: scale(1.04);
+}
+
+.fa-heart {
+  color: red;
+}
+
+.zoom {
+  position: absolute;
+  z-index: 200;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 991px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 10px;
+  }
+  .overlay {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .heart {
+    margin-top: 420px !important;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .heart {
+    margin-top: 350px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .overlay_container i {
+    margin-top: 70%;
+    font-size: 20px;
+    margin-right: 80%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .heart {
+    margin-top: 300px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .heart {
+    margin-top: 270px !important;
+  }
+}

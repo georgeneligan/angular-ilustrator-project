@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 40px;
 }
+
 .contactinfo {
   display: grid;
   grid-template-columns: 1fr;
@@ -67,5 +68,14 @@ textarea {
   }
   &:focus {
     border: solid 1px black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactimg img {
+    width: 150px;
+  }
+  form {
+    width: 90%;
   }
 }
